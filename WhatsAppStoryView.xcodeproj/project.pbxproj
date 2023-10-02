@@ -1,0 +1,713 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5BE08772AC964EB007F50F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BE08762AC964EB007F50F7 /* AppDelegate.swift */; };
+		A5BE087B2AC964EB007F50F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BE087A2AC964EB007F50F7 /* ViewController.swift */; };
+		A5BE087E2AC964EB007F50F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5BE087C2AC964EB007F50F7 /* Main.storyboard */; };
+		A5BE08802AC964ED007F50F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5BE087F2AC964ED007F50F7 /* Assets.xcassets */; };
+		A5BE08832AC964ED007F50F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5BE08812AC964ED007F50F7 /* LaunchScreen.storyboard */; };
+		A5BE088E2AC964ED007F50F7 /* WhatsAppStoryViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BE088D2AC964ED007F50F7 /* WhatsAppStoryViewTests.swift */; };
+		A5BE08982AC964ED007F50F7 /* WhatsAppStoryViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BE08972AC964ED007F50F7 /* WhatsAppStoryViewUITests.swift */; };
+		A5BE089A2AC964ED007F50F7 /* WhatsAppStoryViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BE08992AC964ED007F50F7 /* WhatsAppStoryViewUITestsLaunchTests.swift */; };
+		A5BE08A82AC983E7007F50F7 /* Story.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5BE08A72AC983E7007F50F7 /* Story.storyboard */; };
+		A5BE08AF2AC9872C007F50F7 /* HeaderCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BE08AD2AC9872C007F50F7 /* HeaderCVCell.swift */; };
+		A5BE08B02AC9872C007F50F7 /* HeaderCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5BE08AE2AC9872C007F50F7 /* HeaderCVCell.xib */; };
+		A5BE08B32AC98851007F50F7 /* StatusCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BE08B12AC98851007F50F7 /* StatusCVCell.swift */; };
+		A5BE08B42AC98851007F50F7 /* StatusCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5BE08B22AC98851007F50F7 /* StatusCVCell.xib */; };
+		A5BE08B62AC98A18007F50F7 /* UpdatesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BE08B52AC98A18007F50F7 /* UpdatesVC.swift */; };
+		A5BE08B92AC98A77007F50F7 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BE08B72AC98A77007F50F7 /* Extensions.swift */; };
+		A5BE08BA2AC98A77007F50F7 /* Layouts.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BE08B82AC98A77007F50F7 /* Layouts.swift */; };
+		A5BE08BD2AC98EE1007F50F7 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BE08BB2AC98EE1007F50F7 /* VideoPlayerView.swift */; };
+		A5BE08BE2AC98EE1007F50F7 /* StoryProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BE08BC2AC98EE1007F50F7 /* StoryProgressView.swift */; };
+		A5BE08C12AC99368007F50F7 /* StoryCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BE08BF2AC99368007F50F7 /* StoryCVCell.swift */; };
+		A5BE08C22AC99368007F50F7 /* StoryCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5BE08C02AC99368007F50F7 /* StoryCVCell.xib */; };
+		A5BE08C42AC9973D007F50F7 /* StoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BE08C32AC9973D007F50F7 /* StoryVC.swift */; };
+		A5BE08C62AC99A3C007F50F7 /* StatusModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BE08C52AC99A3C007F50F7 /* StatusModel.swift */; };
+		A5BE08C82AC99B32007F50F7 /* Status.json in Resources */ = {isa = PBXBuildFile; fileRef = A5BE08C72AC99B32007F50F7 /* Status.json */; };
+		A5BE08CA2ACA79F4007F50F7 /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BE08C92ACA79F4007F50F7 /* CircularProgressView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5BE088A2AC964ED007F50F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5BE086B2AC964EB007F50F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5BE08722AC964EB007F50F7;
+			remoteInfo = WhatsAppStoryView;
+		};
+		A5BE08942AC964ED007F50F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5BE086B2AC964EB007F50F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5BE08722AC964EB007F50F7;
+			remoteInfo = WhatsAppStoryView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A5BE08732AC964EB007F50F7 /* WhatsAppStoryView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatsAppStoryView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5BE08762AC964EB007F50F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A5BE087A2AC964EB007F50F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A5BE087D2AC964EB007F50F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A5BE087F2AC964ED007F50F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5BE08822AC964ED007F50F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A5BE08842AC964ED007F50F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5BE08892AC964ED007F50F7 /* WhatsAppStoryViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhatsAppStoryViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5BE088D2AC964ED007F50F7 /* WhatsAppStoryViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsAppStoryViewTests.swift; sourceTree = "<group>"; };
+		A5BE08932AC964ED007F50F7 /* WhatsAppStoryViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhatsAppStoryViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5BE08972AC964ED007F50F7 /* WhatsAppStoryViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsAppStoryViewUITests.swift; sourceTree = "<group>"; };
+		A5BE08992AC964ED007F50F7 /* WhatsAppStoryViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsAppStoryViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A5BE08A72AC983E7007F50F7 /* Story.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Story.storyboard; sourceTree = "<group>"; };
+		A5BE08AD2AC9872C007F50F7 /* HeaderCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCVCell.swift; sourceTree = "<group>"; };
+		A5BE08AE2AC9872C007F50F7 /* HeaderCVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderCVCell.xib; sourceTree = "<group>"; };
+		A5BE08B12AC98851007F50F7 /* StatusCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusCVCell.swift; sourceTree = "<group>"; };
+		A5BE08B22AC98851007F50F7 /* StatusCVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StatusCVCell.xib; sourceTree = "<group>"; };
+		A5BE08B52AC98A18007F50F7 /* UpdatesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatesVC.swift; sourceTree = "<group>"; };
+		A5BE08B72AC98A77007F50F7 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		A5BE08B82AC98A77007F50F7 /* Layouts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Layouts.swift; sourceTree = "<group>"; };
+		A5BE08BB2AC98EE1007F50F7 /* VideoPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
+		A5BE08BC2AC98EE1007F50F7 /* StoryProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryProgressView.swift; sourceTree = "<group>"; };
+		A5BE08BF2AC99368007F50F7 /* StoryCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryCVCell.swift; sourceTree = "<group>"; };
+		A5BE08C02AC99368007F50F7 /* StoryCVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StoryCVCell.xib; sourceTree = "<group>"; };
+		A5BE08C32AC9973D007F50F7 /* StoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryVC.swift; sourceTree = "<group>"; };
+		A5BE08C52AC99A3C007F50F7 /* StatusModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusModel.swift; sourceTree = "<group>"; };
+		A5BE08C72AC99B32007F50F7 /* Status.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Status.json; sourceTree = "<group>"; };
+		A5BE08C92ACA79F4007F50F7 /* CircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5BE08702AC964EB007F50F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5BE08862AC964ED007F50F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5BE08902AC964ED007F50F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5BE086A2AC964EB007F50F7 = {
+			isa = PBXGroup;
+			children = (
+				A5BE08752AC964EB007F50F7 /* WhatsAppStoryView */,
+				A5BE088C2AC964ED007F50F7 /* WhatsAppStoryViewTests */,
+				A5BE08962AC964ED007F50F7 /* WhatsAppStoryViewUITests */,
+				A5BE08742AC964EB007F50F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5BE08742AC964EB007F50F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5BE08732AC964EB007F50F7 /* WhatsAppStoryView.app */,
+				A5BE08892AC964ED007F50F7 /* WhatsAppStoryViewTests.xctest */,
+				A5BE08932AC964ED007F50F7 /* WhatsAppStoryViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5BE08752AC964EB007F50F7 /* WhatsAppStoryView */ = {
+			isa = PBXGroup;
+			children = (
+				A5BE08A62AC96FA3007F50F7 /* Features */,
+				A5BE08AC2AC986FB007F50F7 /* Common */,
+				A5BE08762AC964EB007F50F7 /* AppDelegate.swift */,
+				A5BE087A2AC964EB007F50F7 /* ViewController.swift */,
+				A5BE087C2AC964EB007F50F7 /* Main.storyboard */,
+				A5BE087F2AC964ED007F50F7 /* Assets.xcassets */,
+				A5BE08812AC964ED007F50F7 /* LaunchScreen.storyboard */,
+				A5BE08842AC964ED007F50F7 /* Info.plist */,
+			);
+			path = WhatsAppStoryView;
+			sourceTree = "<group>";
+		};
+		A5BE088C2AC964ED007F50F7 /* WhatsAppStoryViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				A5BE088D2AC964ED007F50F7 /* WhatsAppStoryViewTests.swift */,
+			);
+			path = WhatsAppStoryViewTests;
+			sourceTree = "<group>";
+		};
+		A5BE08962AC964ED007F50F7 /* WhatsAppStoryViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A5BE08972AC964ED007F50F7 /* WhatsAppStoryViewUITests.swift */,
+				A5BE08992AC964ED007F50F7 /* WhatsAppStoryViewUITestsLaunchTests.swift */,
+			);
+			path = WhatsAppStoryViewUITests;
+			sourceTree = "<group>";
+		};
+		A5BE08A62AC96FA3007F50F7 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				A5BE08AB2AC983F9007F50F7 /* Model */,
+				A5BE08AA2AC983F3007F50F7 /* Cell */,
+				A5BE08A92AC983EC007F50F7 /* View */,
+				A5BE08A72AC983E7007F50F7 /* Story.storyboard */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		A5BE08A92AC983EC007F50F7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A5BE08B52AC98A18007F50F7 /* UpdatesVC.swift */,
+				A5BE08C32AC9973D007F50F7 /* StoryVC.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A5BE08AA2AC983F3007F50F7 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A5BE08AD2AC9872C007F50F7 /* HeaderCVCell.swift */,
+				A5BE08AE2AC9872C007F50F7 /* HeaderCVCell.xib */,
+				A5BE08B12AC98851007F50F7 /* StatusCVCell.swift */,
+				A5BE08B22AC98851007F50F7 /* StatusCVCell.xib */,
+				A5BE08BF2AC99368007F50F7 /* StoryCVCell.swift */,
+				A5BE08C02AC99368007F50F7 /* StoryCVCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		A5BE08AB2AC983F9007F50F7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A5BE08C52AC99A3C007F50F7 /* StatusModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A5BE08AC2AC986FB007F50F7 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				A5BE08C72AC99B32007F50F7 /* Status.json */,
+				A5BE08C92ACA79F4007F50F7 /* CircularProgressView.swift */,
+				A5BE08BC2AC98EE1007F50F7 /* StoryProgressView.swift */,
+				A5BE08BB2AC98EE1007F50F7 /* VideoPlayerView.swift */,
+				A5BE08B72AC98A77007F50F7 /* Extensions.swift */,
+				A5BE08B82AC98A77007F50F7 /* Layouts.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5BE08722AC964EB007F50F7 /* WhatsAppStoryView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5BE089D2AC964ED007F50F7 /* Build configuration list for PBXNativeTarget "WhatsAppStoryView" */;
+			buildPhases = (
+				A5BE086F2AC964EB007F50F7 /* Sources */,
+				A5BE08702AC964EB007F50F7 /* Frameworks */,
+				A5BE08712AC964EB007F50F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WhatsAppStoryView;
+			productName = WhatsAppStoryView;
+			productReference = A5BE08732AC964EB007F50F7 /* WhatsAppStoryView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A5BE08882AC964ED007F50F7 /* WhatsAppStoryViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5BE08A02AC964ED007F50F7 /* Build configuration list for PBXNativeTarget "WhatsAppStoryViewTests" */;
+			buildPhases = (
+				A5BE08852AC964ED007F50F7 /* Sources */,
+				A5BE08862AC964ED007F50F7 /* Frameworks */,
+				A5BE08872AC964ED007F50F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5BE088B2AC964ED007F50F7 /* PBXTargetDependency */,
+			);
+			name = WhatsAppStoryViewTests;
+			productName = WhatsAppStoryViewTests;
+			productReference = A5BE08892AC964ED007F50F7 /* WhatsAppStoryViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A5BE08922AC964ED007F50F7 /* WhatsAppStoryViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5BE08A32AC964ED007F50F7 /* Build configuration list for PBXNativeTarget "WhatsAppStoryViewUITests" */;
+			buildPhases = (
+				A5BE088F2AC964ED007F50F7 /* Sources */,
+				A5BE08902AC964ED007F50F7 /* Frameworks */,
+				A5BE08912AC964ED007F50F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5BE08952AC964ED007F50F7 /* PBXTargetDependency */,
+			);
+			name = WhatsAppStoryViewUITests;
+			productName = WhatsAppStoryViewUITests;
+			productReference = A5BE08932AC964ED007F50F7 /* WhatsAppStoryViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5BE086B2AC964EB007F50F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					A5BE08722AC964EB007F50F7 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					A5BE08882AC964ED007F50F7 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = A5BE08722AC964EB007F50F7;
+					};
+					A5BE08922AC964ED007F50F7 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = A5BE08722AC964EB007F50F7;
+					};
+				};
+			};
+			buildConfigurationList = A5BE086E2AC964EB007F50F7 /* Build configuration list for PBXProject "WhatsAppStoryView" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5BE086A2AC964EB007F50F7;
+			productRefGroup = A5BE08742AC964EB007F50F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5BE08722AC964EB007F50F7 /* WhatsAppStoryView */,
+				A5BE08882AC964ED007F50F7 /* WhatsAppStoryViewTests */,
+				A5BE08922AC964ED007F50F7 /* WhatsAppStoryViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5BE08712AC964EB007F50F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5BE08C82AC99B32007F50F7 /* Status.json in Resources */,
+				A5BE08C22AC99368007F50F7 /* StoryCVCell.xib in Resources */,
+				A5BE08B42AC98851007F50F7 /* StatusCVCell.xib in Resources */,
+				A5BE08A82AC983E7007F50F7 /* Story.storyboard in Resources */,
+				A5BE08832AC964ED007F50F7 /* LaunchScreen.storyboard in Resources */,
+				A5BE08802AC964ED007F50F7 /* Assets.xcassets in Resources */,
+				A5BE087E2AC964EB007F50F7 /* Main.storyboard in Resources */,
+				A5BE08B02AC9872C007F50F7 /* HeaderCVCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5BE08872AC964ED007F50F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5BE08912AC964ED007F50F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5BE086F2AC964EB007F50F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5BE08AF2AC9872C007F50F7 /* HeaderCVCell.swift in Sources */,
+				A5BE08BA2AC98A77007F50F7 /* Layouts.swift in Sources */,
+				A5BE08B92AC98A77007F50F7 /* Extensions.swift in Sources */,
+				A5BE08C42AC9973D007F50F7 /* StoryVC.swift in Sources */,
+				A5BE087B2AC964EB007F50F7 /* ViewController.swift in Sources */,
+				A5BE08C62AC99A3C007F50F7 /* StatusModel.swift in Sources */,
+				A5BE08B62AC98A18007F50F7 /* UpdatesVC.swift in Sources */,
+				A5BE08B32AC98851007F50F7 /* StatusCVCell.swift in Sources */,
+				A5BE08772AC964EB007F50F7 /* AppDelegate.swift in Sources */,
+				A5BE08BE2AC98EE1007F50F7 /* StoryProgressView.swift in Sources */,
+				A5BE08C12AC99368007F50F7 /* StoryCVCell.swift in Sources */,
+				A5BE08CA2ACA79F4007F50F7 /* CircularProgressView.swift in Sources */,
+				A5BE08BD2AC98EE1007F50F7 /* VideoPlayerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5BE08852AC964ED007F50F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5BE088E2AC964ED007F50F7 /* WhatsAppStoryViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5BE088F2AC964ED007F50F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5BE08982AC964ED007F50F7 /* WhatsAppStoryViewUITests.swift in Sources */,
+				A5BE089A2AC964ED007F50F7 /* WhatsAppStoryViewUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5BE088B2AC964ED007F50F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5BE08722AC964EB007F50F7 /* WhatsAppStoryView */;
+			targetProxy = A5BE088A2AC964ED007F50F7 /* PBXContainerItemProxy */;
+		};
+		A5BE08952AC964ED007F50F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5BE08722AC964EB007F50F7 /* WhatsAppStoryView */;
+			targetProxy = A5BE08942AC964ED007F50F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A5BE087C2AC964EB007F50F7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5BE087D2AC964EB007F50F7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A5BE08812AC964ED007F50F7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5BE08822AC964ED007F50F7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5BE089B2AC964ED007F50F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A5BE089C2AC964ED007F50F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5BE089E2AC964ED007F50F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V62M23MB8Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WhatsAppStoryView/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOS.WhatsAppStoryView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A5BE089F2AC964ED007F50F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V62M23MB8Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WhatsAppStoryView/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOS.WhatsAppStoryView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A5BE08A12AC964ED007F50F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V62M23MB8Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOS.WhatsAppStoryViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhatsAppStoryView.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WhatsAppStoryView";
+			};
+			name = Debug;
+		};
+		A5BE08A22AC964ED007F50F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V62M23MB8Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOS.WhatsAppStoryViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhatsAppStoryView.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WhatsAppStoryView";
+			};
+			name = Release;
+		};
+		A5BE08A42AC964ED007F50F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V62M23MB8Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOS.WhatsAppStoryViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WhatsAppStoryView;
+			};
+			name = Debug;
+		};
+		A5BE08A52AC964ED007F50F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V62M23MB8Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOS.WhatsAppStoryViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WhatsAppStoryView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5BE086E2AC964EB007F50F7 /* Build configuration list for PBXProject "WhatsAppStoryView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5BE089B2AC964ED007F50F7 /* Debug */,
+				A5BE089C2AC964ED007F50F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5BE089D2AC964ED007F50F7 /* Build configuration list for PBXNativeTarget "WhatsAppStoryView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5BE089E2AC964ED007F50F7 /* Debug */,
+				A5BE089F2AC964ED007F50F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5BE08A02AC964ED007F50F7 /* Build configuration list for PBXNativeTarget "WhatsAppStoryViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5BE08A12AC964ED007F50F7 /* Debug */,
+				A5BE08A22AC964ED007F50F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5BE08A32AC964ED007F50F7 /* Build configuration list for PBXNativeTarget "WhatsAppStoryViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5BE08A42AC964ED007F50F7 /* Debug */,
+				A5BE08A52AC964ED007F50F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5BE086B2AC964EB007F50F7 /* Project object */;
+}
